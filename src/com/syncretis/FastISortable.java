@@ -2,10 +2,10 @@ package com.syncretis;
 
 import java.util.ArrayList;
 
-public class FastSortable implements Sortable {
+public class FastISortable implements ISortable {
     @Override
-    public void sort(ArrayList<Integer> array){
-        if (!array.isEmpty()){
+    public void sort(ArrayList<Integer> array) {
+        if (!array.isEmpty()) {
             sortImpl(array, 0, array.size() - 1);
         }
     }

@@ -2,7 +2,7 @@ package com.syncretis;
 
 import java.util.ArrayList;
 
-public class BubbleSortable implements Sortable {
+public class BubbleISortable implements ISortable {
     @Override
     public void sort(ArrayList<Integer> array) {
         for (int i = 0; i + 1 < array.size(); ++i) {

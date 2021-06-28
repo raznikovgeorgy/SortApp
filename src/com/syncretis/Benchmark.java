@@ -5,21 +5,23 @@ import java.util.ArrayList;
 public class Benchmark {
     public static double benchBubbleSort(ArrayList<Integer> array) {
         long start = System.nanoTime();
-        Sortable bubbleSort = new BubbleSortable();
+        ISortable bubbleSort = new BubbleISortable();
         bubbleSort.sort(array);
         long stop = System.nanoTime();
         return stop - start;
     }
+
     public static double benchSelectionSort(ArrayList<Integer> array) {
         long start = System.nanoTime();
-        Sortable selectionSort = new SelectionSortable();
+        ISortable selectionSort = new SelectionISortable();
         selectionSort.sort(array);
         long stop = System.nanoTime();
         return stop - start;
     }
+
     public static double benchFastSort(ArrayList<Integer> array) {
         long start = System.nanoTime();
-        Sortable fastSort = new FastSortable();
+        ISortable fastSort = new FastISortable();
         fastSort.sort(array);
         long stop = System.nanoTime();
         return stop - start;

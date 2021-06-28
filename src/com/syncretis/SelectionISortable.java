@@ -2,7 +2,7 @@ package com.syncretis;
 
 import java.util.ArrayList;
 
-public class SelectionSortable implements Sortable {
+public class SelectionISortable implements ISortable {
     @Override
     public void sort(ArrayList<Integer> array) {
         if (!array.isEmpty()) {
