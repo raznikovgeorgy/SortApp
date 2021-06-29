@@ -1,5 +1,10 @@
 package com.syncretis;
 
+import com.syncretis.Interfaces.ISortable;
+import com.syncretis.Sort.BubbleISortable;
+import com.syncretis.Sort.FastISortable;
+import com.syncretis.Sort.SelectionISortable;
+
 import java.util.ArrayList;
 
 public class Benchmark {

@@ -1,4 +1,6 @@
-package com.syncretis;
+package com.syncretis.Sort;
+
+import com.syncretis.Interfaces.ISearchable;
 
 import java.util.ArrayList;
 

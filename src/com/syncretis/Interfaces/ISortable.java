@@ -1,4 +1,4 @@
-package com.syncretis;
+package com.syncretis.Interfaces;
 
 import java.util.ArrayList;
 

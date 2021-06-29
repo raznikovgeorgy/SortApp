@@ -1,8 +1,8 @@
-package com.syncretis;
+package com.syncretis.Search;
 
 import java.util.ArrayList;
 
-class BinarySearchTest {
+public class BinarySearchTest {
     private double avgTries;
     private int triesCount = 0;
 
