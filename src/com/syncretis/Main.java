@@ -1,5 +1,8 @@
 package com.syncretis;
 
+import com.syncretis.Search.BinarySearchTest;
+import com.syncretis.Sort.LinearSearch;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
